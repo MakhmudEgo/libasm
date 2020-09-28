@@ -12,6 +12,9 @@ int main()
 	char *str2 = "a";
 	printf("ft_strcmp - |%d|\n", ft_strcmp(str1, str2));
 
+	char *hellostrdup = "";
+	char *cpy = ft_strdup(hellostrdup);
+	printf("ft_strdup - |%s|\n", cpy);
 
 }
 /*
